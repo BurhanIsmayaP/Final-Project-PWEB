@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GUEST BOOK</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body background="belajar.jpg">
+ 
+   <div class="container">		
+   <div align="center"><strong><font color="white" size="20" face="geramond, gill sans, cambria">FORM PEMBAYARAN </font></strong></div>
+<form action="proses.php" method="post" enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="nama" ><font color="white">Nama Pelanggan:</font></label>
+    <input type="text" name="nama" class="form-control" id="nama">
+  </div>
+  <div class="form-group">
+    <label for="alamat"><font color="white">Nama Barang :</font></label>
+    <input type="text" name="nama_barang" class="form-control" id="alamat">
+  </div>
+  <div class="form-group">
+    <label for="alamat"><font color="white">Jumlah :</font></label>
+    <input type="text" name="jumlah" class="form-control" id="alamat">
+  </div>
+  <div class="form-group">
+    <label for="alamat"><font color="white">Harga Satuan :</font></label>
+    <input type="text" name="harga" class="form-control" id="alamat">
+  </div>
+  <div class="form-group">
+    <label for="alamat"><font color="white">Bukti Transaksi :</font></label>
+    <input type="file" name="file">
+  </div>
+  <br>
+    <button type="submit" name="Submit" class="btn btn-primary">Submit</button>
+    <button type="reset" name="Submit2" class="btn btn-danger">Reset</button>
+</form>
+   </div>
+ 
+</body>
+</html>
